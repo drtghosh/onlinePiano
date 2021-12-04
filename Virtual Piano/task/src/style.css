@@ -1,0 +1,36 @@
+body {
+    background-color: seagreen;
+}
+
+.white-keys kbd {
+    background-color: white;
+    margin-left: -6px;
+    border: 3px solid gray;
+    height: 60px;
+    width: 16px;
+    padding: 60px 16px;
+    z-index: 0;
+}
+
+.black-keys {
+    margin-left: 12.5px;
+    display: inline-block;
+    position: absolute;
+}
+
+.black-keys kbd {
+    background-color: black;
+    color: white;
+    margin-left: 12.5px;
+    border: 2px solid gray;
+    height: 30px;
+    width: 8px;
+    padding: 30px 8px;
+    z-index: 1;
+}
+
+.container {
+    width: 23%;
+    margin: 10% auto;
+    align-self: center;
+}
